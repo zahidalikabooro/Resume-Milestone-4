@@ -1,0 +1,158 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin: 20px 0;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+form {
+  width: 100%;
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+form:hover {
+  transform: translateY(-5px);
+}
+
+fieldset {
+  border: none;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+}
+
+legend {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #2980b9;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #d3d3d3;
+  border-radius: 8px;
+  font-size: 1.1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-color: #2980b9;
+  outline: none;
+  box-shadow: 0 0 8px rgba(41, 128, 185, 0.4);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #1f6a8e;
+  transform: translateY(-3px);
+}
+
+#resume-display {
+  width: 100%;
+  max-width: 700px;
+  background-color: #ecf0f1;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#resume-display h2 {
+  color: #2c3e50;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#resume-display p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.resume-section {
+  margin-bottom: 20px;
+}
+
+.resume-section h3 {
+  font-size: 1.4em;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.resume-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-section ul li {
+  font-size: 1.1em;
+  color: #34495e;
+  padding: 5px 0;
+}
+
+.resume-section ul li span {
+  font-weight: bold;
+  color: #2980b9;
+}
